@@ -1,0 +1,28 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Laura Sofia Brezina Borges",
+    "age": "20",
+    "email": "sofi.brezina2004@gmail.com"
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/662ae85b731d8c5907348ed1 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/662ae7f9731d8c5907348ecd HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "George Klooney",
+    "age": "40",
+    "email": "jorchcloniholiwud2023@gmail.com"
+}
+
+###
+DELETE http://localhost:9000/api/users/662ae7f9731d8c5907348ecd HTTP/1.1
